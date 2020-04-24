@@ -1,0 +1,18 @@
+{
+  "name": "covid-19-cases",
+  "version": "1.0.0",
+  "description": "Recolhe os dados das agencias de segurança sobre os casos de covid-19 em paises especificos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid-19",
+    "node"
+  ],
+  "author": "Joao Pedro Noronha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
