@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
-const routerBrazilCases = require('./routes/brazil-cases')
+const cors = require('cors')
+const routerBrazilCases = require('./routes/brazil-cases');
+
+app.use(cors());
 
 app.use('/cases', routerBrazilCases);
 
